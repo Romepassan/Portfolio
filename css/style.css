@@ -1,0 +1,175 @@
+
+
+/* barra de navigation */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:relative;
+    top: 0;
+    background:linear-gradient(to bottom right, gray,red);
+    width: 100%;
+    height: 15%;
+    animation-name: back;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+nav h1{
+    font-size: 15%;
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+    vertical-align: baseline;
+}
+
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+}
+
+/* fin de la barre des taches */
+
+.naviga
+    {  
+     color: black;
+     font-size: 25px;
+}
+
+.icon {
+    right: 20px;
+    width: 50px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.presentation{
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+}
+
+.insta{
+    color: black;
+}
+
+
+.titre{
+    position: relative;
+    text-align: center;
+    margin-top: 15%;
+}
+
+
+@keyframes nope{
+    
+    0%{
+        transform: translateX(0px)
+    }
+    
+    20%{
+        transform: translateX(-10px)
+    }
+    
+    40%{
+        transform: translateX(10px)
+    }
+    
+    60%{
+        transform: translateX(-10px)
+    }
+    
+    80%{
+        transform: translateX(10px)
+    }
+    
+    100%{
+        transform: translateX(0px)
+    }
+}
+
+
+
+@keyframes back{
+    0%{
+        filter: hue-rotate(0deg)
+    }
+    100%{
+        filter: hue-rotate(360deg)
+    }
+}
+
+.projet{
+    background-color: gray;
+    color: black;
+}
+
+h1{
+    margin: 0px;
+    text-align: center;
+}
+
+.ligne_a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.appp{
+     color: black;
+     font-size: 25px;
+     text-decoration:none;
+}
+
+.appp:hover{
+    color: red;
+}
+
+footer{
+    left: 0px;
+    background: #274156;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: aliceblue;
+    display: flex;
+    justify-content: center
+}
+
+.paragraphe{
+    flex-wrap: wrap;
+    padding: 50px
+}
+
+img:hover{
+    animation: nope 0.4s forwards; 
+}
+
+p{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.date{
+    font-style: italic;
+}
